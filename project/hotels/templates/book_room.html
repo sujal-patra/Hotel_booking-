@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Book Room{% endblock %}
+
+{% block content %}
+<h1>Book Room in {{ hotel.name }}</h1>
+<p>Room Type: 2 Person Hotel</p>
+<p>Price: {{ room.price }}</p>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Next</button>
+</form>
+{% endblock %}

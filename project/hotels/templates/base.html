@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Hotel Booking{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                {% if request.session.username %}
+                    <li><a href="{% url 'hotel_list' %}">Home</a></li>
+                    <li><a href="{% url 'logout' %}">Log Out</a></li>
+                {% else %}
+                    <li><a href="{% url 'signup' %}">Sign Up</a></li>
+                    <li><a href="{% url 'login' %}">Log In</a></li>
+                {% endif %}
+            </ul>
+        </nav>
+    </header>
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+</body>
+</html>
