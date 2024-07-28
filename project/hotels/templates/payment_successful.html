@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}Payment Successful{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="jumbotron jumbotron-custom">
+        <h1 class="display-4">Payment Successful!</h1>
+        <p class="lead">Thank you for your booking. Your payment has been confirmed.</p>
+        <hr class="my-4">
+        <p>We look forward to hosting you. You will receive a confirmation email shortly.</p>
+        <a class="btn btn-primary btn-lg" href="{% url 'hotel_list' %}" role="button">Go to Home</a>
+    </div>
+</div>
+{% endblock %}

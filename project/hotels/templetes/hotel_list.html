@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Hotels</h2>
+<form method="get" action=".">
+    <input type="text" name="q" value="{{ query }}" placeholder="Search hotels...">
+    <button type="submit">Search</button>
+</form>
+<ul>
+    {% for hotel in hotels %}
+        <li><a href="{% url 'hotel_detail' hotel.id %}">{{ hotel.name }}</a></li>
+    {% endfor %}
+</ul>
+{% endblock %}
