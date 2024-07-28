@@ -58,9 +58,17 @@ Features of the project:
  7. Responsive Design
    - CSS Styling: Implemented CSS for a responsive and user-friendly design, ensuring the platform works well on both desktop and mobile devices.
 
- 8. Additional Features
+ 8. Auto calculation
    - Auto-Calculation of Total Amount: The system automatically calculates the total amount for bookings based on check-in and check-out dates.
+
+ 9. Image Gallery   
    - Image Gallery: Hotels have a gallery showcasing images of rooms, amenities, and other facilities.
+
+10. Payment details
+   - After clicking the pay now button, it will show us our payment is successful.
+
+11. Redirect feature
+   - After clicking the Go to home button in the payment details page, it will directly connect us to the home page. 
 
  Implementation Details
 
