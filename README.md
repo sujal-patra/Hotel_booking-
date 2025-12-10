@@ -1,30 +1,7 @@
-Group Name: CodeCrafters
+
 
 Project: Hotel Booking Platform 
 
-Member 1
-Sl no:23
-Name:Dibya Prakash Rout
-Regd:22BEEB85 
-Contribution: Helped in collecting hotel images, description. 
-
-Member 2
-Sl no:24
-Name:Mukund Shekhar
-Regd:22BEEC32
-Contribution: Created the views, forms, registered them in urls. Made the logic part for the project and helped in debugging. 
-
-Member 3
-Sl no:25
-Name:Sujal Patra
-Regd:22BEEH58
-Contribution: Created all the templates,made all html and css parts so that the website looks attractive to the users, and looked after the front-end part, also helped in debugging part.
-
-Member 4
-Sl no:26
-Name:Trisha Jana
-Regd:22BEEF61
-Contribution: Created the apps, did the changes in settings, urls, created the models and registered them in admin.py, also made sure all models(hotels, users) were working fine in the admin panel, also helped in debugging part.
 
 
 Features of the project:
